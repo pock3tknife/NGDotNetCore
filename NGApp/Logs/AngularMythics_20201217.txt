@@ -1,0 +1,85 @@
+----------------------------------------------------------------------
+Timestamp - 17/12/2020 4:41:53 pm +08:00 | Level - Error |
+----------------------------------------------------------------------
+EventId : { Id: 1, Name: "UnhandledException" }
+SourceContext : "Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware"
+RequestId : "80000002-0002-fb00-b63f-84710c7967bb"
+RequestPath : "/"
+SpanId : "|ab5c6f8f-491ee99d5f43f4d8."
+TraceId : "ab5c6f8f-491ee99d5f43f4d8"
+ParentId : ""
+Application : "AngularMythics"
+MachineName : "LAPTOP-K1VRK1GI"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.8"
+UserName : "rLawrence"
+ProcessId : 1192
+ProcessName : "iisexpress"
+----------------------EXCEPTION DETAILS-------------------------------
+Exception - System.TimeoutException: The Angular CLI process did not start listening for requests within the timeout period of 0 seconds. Check the log output for error information.
+   at Microsoft.AspNetCore.SpaServices.Extensions.Util.TaskTimeoutExtensions.WithTimeout[T](Task`1 task, TimeSpan timeoutDelay, String message)
+   at Microsoft.AspNetCore.SpaServices.Extensions.Proxy.SpaProxy.PerformProxyRequest(HttpContext context, HttpClient httpClient, Task`1 baseUriTask, CancellationToken applicationStoppingToken, Boolean proxy404s)
+   at Microsoft.AspNetCore.Builder.SpaProxyingExtensions.<>c__DisplayClass2_0.<<UseProxyToSpaDevelopmentServer>b__0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)StackTrace -    at Microsoft.AspNetCore.SpaServices.Extensions.Util.TaskTimeoutExtensions.WithTimeout[T](Task`1 task, TimeSpan timeoutDelay, String message)
+   at Microsoft.AspNetCore.SpaServices.Extensions.Proxy.SpaProxy.PerformProxyRequest(HttpContext context, HttpClient httpClient, Task`1 baseUriTask, CancellationToken applicationStoppingToken, Boolean proxy404s)
+   at Microsoft.AspNetCore.Builder.SpaProxyingExtensions.<>c__DisplayClass2_0.<<UseProxyToSpaDevelopmentServer>b__0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)Message - The Angular CLI process did not start listening for requests within the timeout period of 0 seconds. Check the log output for error information.Source - Microsoft.AspNetCore.SpaServices.ExtensionsInnerException - ---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 17/12/2020 4:41:59 pm +08:00 | Level - Error |
+----------------------------------------------------------------------
+SourceContext : "Microsoft.AspNetCore.SpaServices"
+Application : "AngularMythics"
+MachineName : "LAPTOP-K1VRK1GI"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.8"
+UserName : "rLawrence"
+ProcessId : 1192
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 17/12/2020 4:43:10 pm +08:00 | Level - Error |
+----------------------------------------------------------------------
+Error : "Value cannot be null. (Parameter 'name')"
+StackTrace : "   at System.Globalization.RegionInfo..ctor(String name)
+   at CookieService.CookieSvc.GetUserCountry() in C:\Angular repo\angular-repo-1\CookieService\CookieSvc.cs:line 92"
+InnerException : null
+Source : "System.Private.CoreLib"
+ActionId : "4bedc2af-e145-4379-965d-c8f0053c0d1f"
+ActionName : "AngularMythics.Controllers.Api.v1.ProfileController.UpdateProfile (AngularMythics)"
+RequestId : "80000006-0001-fc00-b63f-84710c7967bb"
+RequestPath : "/api/v1/profile/updateprofile"
+SpanId : "|ab5c6fa3-491ee99d5f43f4d8."
+TraceId : "ab5c6fa3-491ee99d5f43f4d8"
+ParentId : ""
+Application : "AngularMythics"
+MachineName : "LAPTOP-K1VRK1GI"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.8"
+UserName : "rLawrence"
+ProcessId : 1192
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 17/12/2020 4:44:09 pm +08:00 | Level - Error |
+----------------------------------------------------------------------
+RequestId : "80000008-0003-fd00-b63f-84710c7967bb"
+RequestPath : "/admin"
+SpanId : "|ab5c6fb8-491ee99d5f43f4d8."
+TraceId : "ab5c6fb8-491ee99d5f43f4d8"
+ParentId : ""
+Application : "AngularMythics"
+MachineName : "LAPTOP-K1VRK1GI"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.8"
+UserName : "rLawrence"
+ProcessId : 1192
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------

@@ -1,0 +1,135 @@
+----------------------------------------------------------------------
+Timestamp - 21/11/2020 4:34:54 pm +08:00 | Level - Error |
+----------------------------------------------------------------------
+RequestId : "80000006-0000-fd00-b63f-84710c7967bb"
+RequestPath : "/admin"
+SpanId : "|c345a771-42463ab492645e72."
+TraceId : "c345a771-42463ab492645e72"
+ParentId : ""
+Application : "AngularMythics"
+MachineName : "LAPTOP-K1VRK1GI"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.8"
+UserName : "rLawrence"
+ProcessId : 12816
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 21/11/2020 4:39:03 pm +08:00 | Level - Error |
+----------------------------------------------------------------------
+Error : "Value cannot be null. (Parameter 'name')"
+StackTrace : "   at System.Globalization.RegionInfo..ctor(String name)
+   at CookieService.CookieSvc.GetUserCountry() in C:\Angular repo\angular-repo-1\CookieService\CookieSvc.cs:line 92"
+InnerException : null
+Source : "System.Private.CoreLib"
+ActionId : "4760aed4-2d7a-46ad-84ca-aeecc64c6e52"
+ActionName : "AngularMythics.Areas.Admin.Controllers.AccountController.Login (AngularMythics)"
+RequestId : "80000007-0002-fb00-b63f-84710c7967bb"
+RequestPath : "/Admin/Account/Login"
+SpanId : "|c345a77b-42463ab492645e72."
+TraceId : "c345a77b-42463ab492645e72"
+ParentId : ""
+Application : "AngularMythics"
+MachineName : "LAPTOP-K1VRK1GI"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.8"
+UserName : "rLawrence"
+ProcessId : 12816
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 21/11/2020 5:22:59 pm +08:00 | Level - Warning |
+----------------------------------------------------------------------
+userId : "cf1adfc6-595e-4a56-80a8-73896d6d63d6"
+role : "Administrator"
+EventId : { Id: 5 }
+SourceContext : "Microsoft.AspNetCore.Identity.UserManager"
+ActionId : "b670f074-030b-49de-9e33-3646dc72229d"
+ActionName : "AngularMythics.Controllers.Api.v1.UserController.EditUser (AngularMythics)"
+RequestId : "80000018-0002-f900-b63f-84710c7967bb"
+RequestPath : "/api/v1/user/edituser/cf1adfc6-595e-4a56-80a8-73896d6d63d6"
+SpanId : "|d7dc235c-47d4c822d71ea814."
+TraceId : "d7dc235c-47d4c822d71ea814"
+ParentId : ""
+Application : "AngularMythics"
+MachineName : "LAPTOP-K1VRK1GI"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.8"
+UserName : "rLawrence"
+ProcessId : 7956
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 21/11/2020 5:22:59 pm +08:00 | Level - Error |
+----------------------------------------------------------------------
+Error : "Value cannot be null. (Parameter 'name')"
+StackTrace : "   at System.Globalization.RegionInfo..ctor(String name)
+   at CookieService.CookieSvc.GetUserCountry() in C:\Angular repo\angular-repo-1\CookieService\CookieSvc.cs:line 92"
+InnerException : null
+Source : "System.Private.CoreLib"
+ActionId : "b670f074-030b-49de-9e33-3646dc72229d"
+ActionName : "AngularMythics.Controllers.Api.v1.UserController.EditUser (AngularMythics)"
+RequestId : "80000018-0002-f900-b63f-84710c7967bb"
+RequestPath : "/api/v1/user/edituser/cf1adfc6-595e-4a56-80a8-73896d6d63d6"
+SpanId : "|d7dc235c-47d4c822d71ea814."
+TraceId : "d7dc235c-47d4c822d71ea814"
+ParentId : ""
+Application : "AngularMythics"
+MachineName : "LAPTOP-K1VRK1GI"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.8"
+UserName : "rLawrence"
+ProcessId : 7956
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 21/11/2020 5:23:11 pm +08:00 | Level - Warning |
+----------------------------------------------------------------------
+userId : "bda9a613-982c-4182-b5e8-f8e0fe8e5c25"
+role : "Customer"
+EventId : { Id: 5 }
+SourceContext : "Microsoft.AspNetCore.Identity.UserManager"
+ActionId : "b670f074-030b-49de-9e33-3646dc72229d"
+ActionName : "AngularMythics.Controllers.Api.v1.UserController.EditUser (AngularMythics)"
+RequestId : "8000001a-0002-f900-b63f-84710c7967bb"
+RequestPath : "/api/v1/user/edituser/bda9a613-982c-4182-b5e8-f8e0fe8e5c25"
+SpanId : "|d7dc2360-47d4c822d71ea814."
+TraceId : "d7dc2360-47d4c822d71ea814"
+ParentId : ""
+Application : "AngularMythics"
+MachineName : "LAPTOP-K1VRK1GI"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.8"
+UserName : "rLawrence"
+ProcessId : 7956
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 21/11/2020 5:23:11 pm +08:00 | Level - Error |
+----------------------------------------------------------------------
+Error : "Value cannot be null. (Parameter 'name')"
+StackTrace : "   at System.Globalization.RegionInfo..ctor(String name)
+   at CookieService.CookieSvc.GetUserCountry() in C:\Angular repo\angular-repo-1\CookieService\CookieSvc.cs:line 92"
+InnerException : null
+Source : "System.Private.CoreLib"
+ActionId : "b670f074-030b-49de-9e33-3646dc72229d"
+ActionName : "AngularMythics.Controllers.Api.v1.UserController.EditUser (AngularMythics)"
+RequestId : "8000001a-0002-f900-b63f-84710c7967bb"
+RequestPath : "/api/v1/user/edituser/bda9a613-982c-4182-b5e8-f8e0fe8e5c25"
+SpanId : "|d7dc2360-47d4c822d71ea814."
+TraceId : "d7dc2360-47d4c822d71ea814"
+ParentId : ""
+Application : "AngularMythics"
+MachineName : "LAPTOP-K1VRK1GI"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.8"
+UserName : "rLawrence"
+ProcessId : 7956
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------

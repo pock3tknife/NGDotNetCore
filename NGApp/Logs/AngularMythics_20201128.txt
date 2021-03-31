@@ -1,0 +1,30 @@
+----------------------------------------------------------------------
+Timestamp - 28/11/2020 6:30:17 pm +08:00 | Level - Error |
+----------------------------------------------------------------------
+SourceContext : "Microsoft.AspNetCore.SpaServices"
+Application : "AngularMythics"
+MachineName : "LAPTOP-K1VRK1GI"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.8"
+UserName : "rLawrence"
+ProcessId : 12864
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 28/11/2020 6:31:29 pm +08:00 | Level - Error |
+----------------------------------------------------------------------
+RequestId : "80000004-0003-fb00-b63f-84710c7967bb"
+RequestPath : "/admin"
+SpanId : "|38b852f1-43f70ec198ee654b."
+TraceId : "38b852f1-43f70ec198ee654b"
+ParentId : ""
+Application : "AngularMythics"
+MachineName : "LAPTOP-K1VRK1GI"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.8"
+UserName : "rLawrence"
+ProcessId : 12864
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------

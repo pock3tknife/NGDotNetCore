@@ -1,0 +1,71 @@
+----------------------------------------------------------------------
+Timestamp - 23/11/2020 3:19:19 pm +08:00 | Level - Error |
+----------------------------------------------------------------------
+RequestId : "80000006-0002-fd00-b63f-84710c7967bb"
+RequestPath : "/admin"
+SpanId : "|dea39676-40bd5475013044a5."
+TraceId : "dea39676-40bd5475013044a5"
+ParentId : ""
+Application : "AngularMythics"
+MachineName : "LAPTOP-K1VRK1GI"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.8"
+UserName : "rLawrence"
+ProcessId : 13776
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 23/11/2020 3:21:21 pm +08:00 | Level - Error |
+----------------------------------------------------------------------
+Error : "Value cannot be null. (Parameter 'name')"
+StackTrace : "   at System.Globalization.RegionInfo..ctor(String name)
+   at CookieService.CookieSvc.GetUserCountry() in C:\Angular repo\angular-repo-1\CookieService\CookieSvc.cs:line 92"
+InnerException : null
+Source : "System.Private.CoreLib"
+ActionId : "cf78e289-65de-43e1-b777-e3781b65d7f9"
+ActionName : "AngularMythics.Areas.Admin.Controllers.AccountController.Login (AngularMythics)"
+RequestId : "8000000c-0003-fd00-b63f-84710c7967bb"
+RequestPath : "/Admin/Account/Login"
+SpanId : "|dea39680-40bd5475013044a5."
+TraceId : "dea39680-40bd5475013044a5"
+ParentId : ""
+Application : "AngularMythics"
+MachineName : "LAPTOP-K1VRK1GI"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.8"
+UserName : "rLawrence"
+ProcessId : 13776
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 23/11/2020 3:23:32 pm +08:00 | Level - Error |
+----------------------------------------------------------------------
+Error : "An error occurred during a cryptographic operation."
+StackTrace : "   at Microsoft.AspNetCore.DataProtection.DataProtectionCommonExtensions.Unprotect(IDataProtector protector, String protectedData)
+   at AngularMythics.Areas.Admin.Controllers.EmailSettingsController.UpdateSengridOptions(SendGridOptions options) in C:\Angular repo\angular-repo-1\AngularMythics\Areas\Admin\Controllers\EmailSettingsController.cs:line 87"
+InnerException : "System.FormatException: The input is not a valid Base-64 string as it contains a non-base 64 character, more than two padding characters, or an illegal character among the padding characters.
+   at System.Convert.FromBase64CharPtr(Char* inputPtr, Int32 inputLength)
+   at System.Convert.FromBase64CharArray(Char[] inArray, Int32 offset, Int32 length)
+   at Microsoft.Extensions.Internal.WebEncoders.Base64UrlDecode(String input, Int32 offset, Char[] buffer, Int32 bufferOffset, Int32 count)
+   at Microsoft.Extensions.Internal.WebEncoders.Base64UrlDecode(String input, Int32 offset, Int32 count)
+   at Microsoft.Extensions.Internal.WebEncoders.Base64UrlDecode(String input)
+   at Microsoft.AspNetCore.DataProtection.DataProtectionCommonExtensions.Unprotect(IDataProtector protector, String protectedData)"
+Source : "Microsoft.AspNetCore.DataProtection.Abstractions"
+ActionId : "d1e83c47-a512-41e5-904f-dcefa2a99e77"
+ActionName : "AngularMythics.Areas.Admin.Controllers.EmailSettingsController.UpdateSengridOptions (AngularMythics)"
+RequestId : "80000009-0000-fc00-b63f-84710c7967bb"
+RequestPath : "/Admin/EmailSettings/UpdateSengridOptions"
+SpanId : "|dea39684-40bd5475013044a5."
+TraceId : "dea39684-40bd5475013044a5"
+ParentId : ""
+Application : "AngularMythics"
+MachineName : "LAPTOP-K1VRK1GI"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.8"
+UserName : "rLawrence"
+ProcessId : 13776
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------

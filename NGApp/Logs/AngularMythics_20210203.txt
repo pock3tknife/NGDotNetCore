@@ -1,0 +1,562 @@
+----------------------------------------------------------------------
+Timestamp - 03/02/2021 5:46:40 pm +08:00 | Level - Error |
+----------------------------------------------------------------------
+Error : "Could not find file 'C:\Angular repo\angular-repo-1\AngularMythics\wwwroot\uploads\user\profile\default\profile.jpeg'."
+Application : "AngularMythics"
+MachineName : "LAPTOP-K1VRK1GI"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18363.0"
+Version : "3.1.11"
+UserName : "rLawrence"
+ProcessId : 17932
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 03/02/2021 5:46:40 pm +08:00 | Level - Error |
+----------------------------------------------------------------------
+Error : "Could not find file 'C:\Angular repo\angular-repo-1\AngularMythics\wwwroot\uploads\user\profile\default\profile.jpeg'."
+Application : "AngularMythics"
+MachineName : "LAPTOP-K1VRK1GI"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18363.0"
+Version : "3.1.11"
+UserName : "rLawrence"
+ProcessId : 17932
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 03/02/2021 5:46:41 pm +08:00 | Level - Warning |
+----------------------------------------------------------------------
+KeyId : 8719aae4-9c58-4cdc-aa52-b5632dc9c750
+EventId : { Id: 35 }
+SourceContext : "Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager"
+Application : "AngularMythics"
+MachineName : "LAPTOP-K1VRK1GI"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18363.0"
+Version : "3.1.11"
+UserName : "rLawrence"
+ProcessId : 17932
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 03/02/2021 5:48:44 pm +08:00 | Level - Error |
+----------------------------------------------------------------------
+EventId : { Id: 1, Name: "UnhandledException" }
+SourceContext : "Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware"
+RequestId : "80000003-0003-ff00-b63f-84710c7967bb"
+RequestPath : "/"
+SpanId : "|407593d3-4b904e8961ab3e99."
+TraceId : "407593d3-4b904e8961ab3e99"
+ParentId : ""
+Application : "AngularMythics"
+MachineName : "LAPTOP-K1VRK1GI"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18363.0"
+Version : "3.1.11"
+UserName : "rLawrence"
+ProcessId : 17932
+ProcessName : "iisexpress"
+----------------------EXCEPTION DETAILS-------------------------------
+Exception - System.TimeoutException: The Angular CLI process did not start listening for requests within the timeout period of 0 seconds. Check the log output for error information.
+   at Microsoft.AspNetCore.SpaServices.Extensions.Util.TaskTimeoutExtensions.WithTimeout[T](Task`1 task, TimeSpan timeoutDelay, String message)
+   at Microsoft.AspNetCore.SpaServices.Extensions.Proxy.SpaProxy.PerformProxyRequest(HttpContext context, HttpClient httpClient, Task`1 baseUriTask, CancellationToken applicationStoppingToken, Boolean proxy404s)
+   at Microsoft.AspNetCore.Builder.SpaProxyingExtensions.<>c__DisplayClass2_0.<<UseProxyToSpaDevelopmentServer>b__0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)StackTrace -    at Microsoft.AspNetCore.SpaServices.Extensions.Util.TaskTimeoutExtensions.WithTimeout[T](Task`1 task, TimeSpan timeoutDelay, String message)
+   at Microsoft.AspNetCore.SpaServices.Extensions.Proxy.SpaProxy.PerformProxyRequest(HttpContext context, HttpClient httpClient, Task`1 baseUriTask, CancellationToken applicationStoppingToken, Boolean proxy404s)
+   at Microsoft.AspNetCore.Builder.SpaProxyingExtensions.<>c__DisplayClass2_0.<<UseProxyToSpaDevelopmentServer>b__0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)Message - The Angular CLI process did not start listening for requests within the timeout period of 0 seconds. Check the log output for error information.Source - Microsoft.AspNetCore.SpaServices.ExtensionsInnerException - ---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 03/02/2021 5:49:38 pm +08:00 | Level - Error |
+----------------------------------------------------------------------
+SourceContext : "Microsoft.AspNetCore.SpaServices"
+Application : "AngularMythics"
+MachineName : "LAPTOP-K1VRK1GI"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18363.0"
+Version : "3.1.11"
+UserName : "rLawrence"
+ProcessId : 17932
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 03/02/2021 6:02:44 pm +08:00 | Level - Error |
+----------------------------------------------------------------------
+SourceContext : "Microsoft.AspNetCore.SpaServices"
+Application : "AngularMythics"
+MachineName : "LAPTOP-K1VRK1GI"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18363.0"
+Version : "3.1.11"
+UserName : "rLawrence"
+ProcessId : 19136
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 03/02/2021 6:04:11 pm +08:00 | Level - Warning |
+----------------------------------------------------------------------
+userId : "3baac031-a988-4488-b67e-872dd1243c4d"
+SourceContext : "Microsoft.AspNetCore.Identity.UserManager"
+ActionId : "20649d1d-d087-4347-a016-d9adb0f640f4"
+ActionName : "AngularMythics.Controllers.Api.v1.AccountController.Auth (AngularMythics)"
+RequestId : "80000010-0001-fc00-b63f-84710c7967bb"
+RequestPath : "/api/v1/account/auth"
+SpanId : "|fdd6eb4a-4bfc7d9b60ab1add."
+TraceId : "fdd6eb4a-4bfc7d9b60ab1add"
+ParentId : ""
+Application : "AngularMythics"
+MachineName : "LAPTOP-K1VRK1GI"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18363.0"
+Version : "3.1.11"
+UserName : "rLawrence"
+ProcessId : 19136
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 03/02/2021 6:04:23 pm +08:00 | Level - Warning |
+----------------------------------------------------------------------
+userId : "3baac031-a988-4488-b67e-872dd1243c4d"
+SourceContext : "Microsoft.AspNetCore.Identity.UserManager"
+ActionId : "20649d1d-d087-4347-a016-d9adb0f640f4"
+ActionName : "AngularMythics.Controllers.Api.v1.AccountController.Auth (AngularMythics)"
+RequestId : "80000006-0002-fb00-b63f-84710c7967bb"
+RequestPath : "/api/v1/account/auth"
+SpanId : "|fdd6eb4b-4bfc7d9b60ab1add."
+TraceId : "fdd6eb4b-4bfc7d9b60ab1add"
+ParentId : ""
+Application : "AngularMythics"
+MachineName : "LAPTOP-K1VRK1GI"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18363.0"
+Version : "3.1.11"
+UserName : "rLawrence"
+ProcessId : 19136
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 03/02/2021 6:04:28 pm +08:00 | Level - Warning |
+----------------------------------------------------------------------
+userId : "3baac031-a988-4488-b67e-872dd1243c4d"
+SourceContext : "Microsoft.AspNetCore.Identity.UserManager"
+ActionId : "20649d1d-d087-4347-a016-d9adb0f640f4"
+ActionName : "AngularMythics.Controllers.Api.v1.AccountController.Auth (AngularMythics)"
+RequestId : "80000008-0002-fb00-b63f-84710c7967bb"
+RequestPath : "/api/v1/account/auth"
+SpanId : "|fdd6eb4c-4bfc7d9b60ab1add."
+TraceId : "fdd6eb4c-4bfc7d9b60ab1add"
+ParentId : ""
+Application : "AngularMythics"
+MachineName : "LAPTOP-K1VRK1GI"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18363.0"
+Version : "3.1.11"
+UserName : "rLawrence"
+ProcessId : 19136
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 03/02/2021 6:05:00 pm +08:00 | Level - Error |
+----------------------------------------------------------------------
+RequestId : "80000008-0002-fa00-b63f-84710c7967bb"
+RequestPath : "/admin"
+SpanId : "|fdd6eb5d-4bfc7d9b60ab1add."
+TraceId : "fdd6eb5d-4bfc7d9b60ab1add"
+ParentId : ""
+Application : "AngularMythics"
+MachineName : "LAPTOP-K1VRK1GI"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18363.0"
+Version : "3.1.11"
+UserName : "rLawrence"
+ProcessId : 19136
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 03/02/2021 6:05:20 pm +08:00 | Level - Error |
+----------------------------------------------------------------------
+ActionId : "7f48420f-b65f-4805-ace3-8ea06eb13e6b"
+ActionName : "AngularMythics.Areas.Admin.Controllers.AccountController.Login (AngularMythics)"
+RequestId : "8000000c-0002-fa00-b63f-84710c7967bb"
+RequestPath : "/Admin/Account/Login"
+SpanId : "|fdd6eb66-4bfc7d9b60ab1add."
+TraceId : "fdd6eb66-4bfc7d9b60ab1add"
+ParentId : ""
+Application : "AngularMythics"
+MachineName : "LAPTOP-K1VRK1GI"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18363.0"
+Version : "3.1.11"
+UserName : "rLawrence"
+ProcessId : 19136
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 03/02/2021 6:05:42 pm +08:00 | Level - Error |
+----------------------------------------------------------------------
+ActionId : "7f48420f-b65f-4805-ace3-8ea06eb13e6b"
+ActionName : "AngularMythics.Areas.Admin.Controllers.AccountController.Login (AngularMythics)"
+RequestId : "80000014-0001-fd00-b63f-84710c7967bb"
+RequestPath : "/Admin/Account/Login"
+SpanId : "|fdd6eb67-4bfc7d9b60ab1add."
+TraceId : "fdd6eb67-4bfc7d9b60ab1add"
+ParentId : ""
+Application : "AngularMythics"
+MachineName : "LAPTOP-K1VRK1GI"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18363.0"
+Version : "3.1.11"
+UserName : "rLawrence"
+ProcessId : 19136
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 03/02/2021 6:06:15 pm +08:00 | Level - Error |
+----------------------------------------------------------------------
+ActionId : "7f48420f-b65f-4805-ace3-8ea06eb13e6b"
+ActionName : "AngularMythics.Areas.Admin.Controllers.AccountController.Login (AngularMythics)"
+RequestId : "80000016-0001-fd00-b63f-84710c7967bb"
+RequestPath : "/Admin/Account/Login"
+SpanId : "|fdd6eb68-4bfc7d9b60ab1add."
+TraceId : "fdd6eb68-4bfc7d9b60ab1add"
+ParentId : ""
+Application : "AngularMythics"
+MachineName : "LAPTOP-K1VRK1GI"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18363.0"
+Version : "3.1.11"
+UserName : "rLawrence"
+ProcessId : 19136
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 03/02/2021 6:06:22 pm +08:00 | Level - Error |
+----------------------------------------------------------------------
+ActionId : "7f48420f-b65f-4805-ace3-8ea06eb13e6b"
+ActionName : "AngularMythics.Areas.Admin.Controllers.AccountController.Login (AngularMythics)"
+RequestId : "80000017-0003-fe00-b63f-84710c7967bb"
+RequestPath : "/Admin/Account/Login"
+SpanId : "|fdd6eb69-4bfc7d9b60ab1add."
+TraceId : "fdd6eb69-4bfc7d9b60ab1add"
+ParentId : ""
+Application : "AngularMythics"
+MachineName : "LAPTOP-K1VRK1GI"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18363.0"
+Version : "3.1.11"
+UserName : "rLawrence"
+ProcessId : 19136
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 03/02/2021 6:07:36 pm +08:00 | Level - Error |
+----------------------------------------------------------------------
+ActionId : "7f48420f-b65f-4805-ace3-8ea06eb13e6b"
+ActionName : "AngularMythics.Areas.Admin.Controllers.AccountController.Login (AngularMythics)"
+RequestId : "80000018-0001-fd00-b63f-84710c7967bb"
+RequestPath : "/Admin/Account/Login"
+SpanId : "|fdd6eb6a-4bfc7d9b60ab1add."
+TraceId : "fdd6eb6a-4bfc7d9b60ab1add"
+ParentId : ""
+Application : "AngularMythics"
+MachineName : "LAPTOP-K1VRK1GI"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18363.0"
+Version : "3.1.11"
+UserName : "rLawrence"
+ProcessId : 19136
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 03/02/2021 6:07:41 pm +08:00 | Level - Error |
+----------------------------------------------------------------------
+ActionId : "7f48420f-b65f-4805-ace3-8ea06eb13e6b"
+ActionName : "AngularMythics.Areas.Admin.Controllers.AccountController.Login (AngularMythics)"
+RequestId : "8000000e-0002-fa00-b63f-84710c7967bb"
+RequestPath : "/Admin/Account/Login"
+SpanId : "|fdd6eb6b-4bfc7d9b60ab1add."
+TraceId : "fdd6eb6b-4bfc7d9b60ab1add"
+ParentId : ""
+Application : "AngularMythics"
+MachineName : "LAPTOP-K1VRK1GI"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18363.0"
+Version : "3.1.11"
+UserName : "rLawrence"
+ProcessId : 19136
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 03/02/2021 6:07:45 pm +08:00 | Level - Error |
+----------------------------------------------------------------------
+ActionId : "7f48420f-b65f-4805-ace3-8ea06eb13e6b"
+ActionName : "AngularMythics.Areas.Admin.Controllers.AccountController.Login (AngularMythics)"
+RequestId : "80000010-0002-fa00-b63f-84710c7967bb"
+RequestPath : "/Admin/Account/Login"
+SpanId : "|fdd6eb6c-4bfc7d9b60ab1add."
+TraceId : "fdd6eb6c-4bfc7d9b60ab1add"
+ParentId : ""
+Application : "AngularMythics"
+MachineName : "LAPTOP-K1VRK1GI"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18363.0"
+Version : "3.1.11"
+UserName : "rLawrence"
+ProcessId : 19136
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 03/02/2021 6:12:26 pm +08:00 | Level - Error |
+----------------------------------------------------------------------
+Error : "Value cannot be null. (Parameter 'name')"
+StackTrace : "   at System.Globalization.RegionInfo..ctor(String name)
+   at CookieService.CookieSvc.GetUserCountry() in C:\Angular repo\angular-repo-1\CookieService\CookieSvc.cs:line 92"
+InnerException : null
+Source : "System.Private.CoreLib"
+ActionId : "3fbd3636-847e-4c47-ba42-8cfc3570e975"
+ActionName : "AngularMythics.Controllers.Api.v1.ProfileController.UpdateProfile (AngularMythics)"
+RequestId : "80000018-0002-fa00-b63f-84710c7967bb"
+RequestPath : "/api/v1/profile/updateprofile"
+SpanId : "|fdd6eb83-4bfc7d9b60ab1add."
+TraceId : "fdd6eb83-4bfc7d9b60ab1add"
+ParentId : ""
+Application : "AngularMythics"
+MachineName : "LAPTOP-K1VRK1GI"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18363.0"
+Version : "3.1.11"
+UserName : "rLawrence"
+ProcessId : 19136
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 03/02/2021 6:16:19 pm +08:00 | Level - Error |
+----------------------------------------------------------------------
+SourceContext : "Microsoft.AspNetCore.SpaServices"
+Application : "AngularMythics"
+MachineName : "LAPTOP-K1VRK1GI"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18363.0"
+Version : "3.1.11"
+UserName : "rLawrence"
+ProcessId : 14888
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 03/02/2021 6:16:43 pm +08:00 | Level - Error |
+----------------------------------------------------------------------
+RequestId : "80000018-0000-fe00-b63f-84710c7967bb"
+RequestPath : "/admin"
+SpanId : "|77199fe8-4306063f25d93141."
+TraceId : "77199fe8-4306063f25d93141"
+ParentId : ""
+Application : "AngularMythics"
+MachineName : "LAPTOP-K1VRK1GI"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18363.0"
+Version : "3.1.11"
+UserName : "rLawrence"
+ProcessId : 14888
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 03/02/2021 6:16:55 pm +08:00 | Level - Error |
+----------------------------------------------------------------------
+Error : "Value cannot be null. (Parameter 'name')"
+StackTrace : "   at System.Globalization.RegionInfo..ctor(String name)
+   at CookieService.CookieSvc.GetUserCountry() in C:\Angular repo\angular-repo-1\CookieService\CookieSvc.cs:line 92"
+InnerException : null
+Source : "System.Private.CoreLib"
+ActionId : "f520b7a9-bd7f-4a27-bd4a-f6b7e22f5ff3"
+ActionName : "AngularMythics.Areas.Admin.Controllers.AccountController.Login (AngularMythics)"
+RequestId : "8000002b-0003-fe00-b63f-84710c7967bb"
+RequestPath : "/Admin/Account/Login"
+SpanId : "|77199fea-4306063f25d93141."
+TraceId : "77199fea-4306063f25d93141"
+ParentId : ""
+Application : "AngularMythics"
+MachineName : "LAPTOP-K1VRK1GI"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18363.0"
+Version : "3.1.11"
+UserName : "rLawrence"
+ProcessId : 14888
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 03/02/2021 6:16:55 pm +08:00 | Level - Error |
+----------------------------------------------------------------------
+Error : "Value cannot be null. (Parameter 'stringToEscape')"
+StackTrace : "   at System.Uri.EscapeDataString(String stringToEscape)
+   at Microsoft.AspNetCore.Http.ResponseCookies.Append(String key, String value, CookieOptions options)
+   at CookieService.CookieSvc.SetCookie(String key, String value, Nullable`1 expireTime) in C:\Angular repo\angular-repo-1\CookieService\CookieSvc.cs:line 52
+   at AngularMythics.Areas.Admin.Controllers.AccountController.Login(LoginViewModel model, String returnUrl) in C:\Angular repo\angular-repo-1\AngularMythics\Areas\Admin\Controllers\AccountController.cs:line 82"
+InnerException : null
+Source : "System.Private.Uri"
+ActionId : "f520b7a9-bd7f-4a27-bd4a-f6b7e22f5ff3"
+ActionName : "AngularMythics.Areas.Admin.Controllers.AccountController.Login (AngularMythics)"
+RequestId : "8000002b-0003-fe00-b63f-84710c7967bb"
+RequestPath : "/Admin/Account/Login"
+SpanId : "|77199fea-4306063f25d93141."
+TraceId : "77199fea-4306063f25d93141"
+ParentId : ""
+Application : "AngularMythics"
+MachineName : "LAPTOP-K1VRK1GI"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18363.0"
+Version : "3.1.11"
+UserName : "rLawrence"
+ProcessId : 14888
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 03/02/2021 6:16:55 pm +08:00 | Level - Error |
+----------------------------------------------------------------------
+ActionId : "f520b7a9-bd7f-4a27-bd4a-f6b7e22f5ff3"
+ActionName : "AngularMythics.Areas.Admin.Controllers.AccountController.Login (AngularMythics)"
+RequestId : "8000002b-0003-fe00-b63f-84710c7967bb"
+RequestPath : "/Admin/Account/Login"
+SpanId : "|77199fea-4306063f25d93141."
+TraceId : "77199fea-4306063f25d93141"
+ParentId : ""
+Application : "AngularMythics"
+MachineName : "LAPTOP-K1VRK1GI"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18363.0"
+Version : "3.1.11"
+UserName : "rLawrence"
+ProcessId : 14888
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 03/02/2021 6:17:05 pm +08:00 | Level - Error |
+----------------------------------------------------------------------
+ActionId : "f520b7a9-bd7f-4a27-bd4a-f6b7e22f5ff3"
+ActionName : "AngularMythics.Areas.Admin.Controllers.AccountController.Login (AngularMythics)"
+RequestId : "8000002d-0003-fe00-b63f-84710c7967bb"
+RequestPath : "/Admin/Account/Login"
+SpanId : "|77199feb-4306063f25d93141."
+TraceId : "77199feb-4306063f25d93141"
+ParentId : ""
+Application : "AngularMythics"
+MachineName : "LAPTOP-K1VRK1GI"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18363.0"
+Version : "3.1.11"
+UserName : "rLawrence"
+ProcessId : 14888
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 03/02/2021 6:17:47 pm +08:00 | Level - Error |
+----------------------------------------------------------------------
+Error : "Value cannot be null. (Parameter 'name')"
+StackTrace : "   at System.Globalization.RegionInfo..ctor(String name)
+   at CookieService.CookieSvc.GetUserCountry() in C:\Angular repo\angular-repo-1\CookieService\CookieSvc.cs:line 92"
+InnerException : null
+Source : "System.Private.CoreLib"
+ActionId : "f520b7a9-bd7f-4a27-bd4a-f6b7e22f5ff3"
+ActionName : "AngularMythics.Areas.Admin.Controllers.AccountController.Login (AngularMythics)"
+RequestId : "8000002f-0003-fe00-b63f-84710c7967bb"
+RequestPath : "/Admin/Account/Login"
+SpanId : "|77199fec-4306063f25d93141."
+TraceId : "77199fec-4306063f25d93141"
+ParentId : ""
+Application : "AngularMythics"
+MachineName : "LAPTOP-K1VRK1GI"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18363.0"
+Version : "3.1.11"
+UserName : "rLawrence"
+ProcessId : 14888
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 03/02/2021 6:17:48 pm +08:00 | Level - Warning |
+----------------------------------------------------------------------
+userId : "725cec7b-f6bc-4867-9611-908048026d45"
+SourceContext : "Microsoft.AspNetCore.Identity.UserManager"
+ActionId : "f520b7a9-bd7f-4a27-bd4a-f6b7e22f5ff3"
+ActionName : "AngularMythics.Areas.Admin.Controllers.AccountController.Login (AngularMythics)"
+RequestId : "8000002f-0003-fe00-b63f-84710c7967bb"
+RequestPath : "/Admin/Account/Login"
+SpanId : "|77199fec-4306063f25d93141."
+TraceId : "77199fec-4306063f25d93141"
+ParentId : ""
+Application : "AngularMythics"
+MachineName : "LAPTOP-K1VRK1GI"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18363.0"
+Version : "3.1.11"
+UserName : "rLawrence"
+ProcessId : 14888
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 03/02/2021 6:17:48 pm +08:00 | Level - Error |
+----------------------------------------------------------------------
+ActionId : "f520b7a9-bd7f-4a27-bd4a-f6b7e22f5ff3"
+ActionName : "AngularMythics.Areas.Admin.Controllers.AccountController.Login (AngularMythics)"
+RequestId : "8000002f-0003-fe00-b63f-84710c7967bb"
+RequestPath : "/Admin/Account/Login"
+SpanId : "|77199fec-4306063f25d93141."
+TraceId : "77199fec-4306063f25d93141"
+ParentId : ""
+Application : "AngularMythics"
+MachineName : "LAPTOP-K1VRK1GI"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18363.0"
+Version : "3.1.11"
+UserName : "rLawrence"
+ProcessId : 14888
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 03/02/2021 6:17:48 pm +08:00 | Level - Error |
+----------------------------------------------------------------------
+Error : "Value cannot be null. (Parameter 'stringToEscape')"
+StackTrace : "   at System.Uri.EscapeDataString(String stringToEscape)
+   at Microsoft.AspNetCore.Http.ResponseCookies.Append(String key, String value, CookieOptions options)
+   at CookieService.CookieSvc.SetCookie(String key, String value, Nullable`1 expireTime) in C:\Angular repo\angular-repo-1\CookieService\CookieSvc.cs:line 52
+   at AngularMythics.Areas.Admin.Controllers.AccountController.Login(LoginViewModel model, String returnUrl) in C:\Angular repo\angular-repo-1\AngularMythics\Areas\Admin\Controllers\AccountController.cs:line 82"
+InnerException : null
+Source : "System.Private.Uri"
+ActionId : "f520b7a9-bd7f-4a27-bd4a-f6b7e22f5ff3"
+ActionName : "AngularMythics.Areas.Admin.Controllers.AccountController.Login (AngularMythics)"
+RequestId : "8000002f-0003-fe00-b63f-84710c7967bb"
+RequestPath : "/Admin/Account/Login"
+SpanId : "|77199fec-4306063f25d93141."
+TraceId : "77199fec-4306063f25d93141"
+ParentId : ""
+Application : "AngularMythics"
+MachineName : "LAPTOP-K1VRK1GI"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18363.0"
+Version : "3.1.11"
+UserName : "rLawrence"
+ProcessId : 14888
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 03/02/2021 6:17:48 pm +08:00 | Level - Error |
+----------------------------------------------------------------------
+ActionId : "f520b7a9-bd7f-4a27-bd4a-f6b7e22f5ff3"
+ActionName : "AngularMythics.Areas.Admin.Controllers.AccountController.Login (AngularMythics)"
+RequestId : "8000002f-0003-fe00-b63f-84710c7967bb"
+RequestPath : "/Admin/Account/Login"
+SpanId : "|77199fec-4306063f25d93141."
+TraceId : "77199fec-4306063f25d93141"
+ParentId : ""
+Application : "AngularMythics"
+MachineName : "LAPTOP-K1VRK1GI"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18363.0"
+Version : "3.1.11"
+UserName : "rLawrence"
+ProcessId : 14888
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------

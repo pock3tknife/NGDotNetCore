@@ -1,0 +1,375 @@
+----------------------------------------------------------------------
+Timestamp - 10/12/2020 4:22:37 pm +08:00 | Level - Error |
+----------------------------------------------------------------------
+SourceContext : "Microsoft.AspNetCore.SpaServices"
+Application : "AngularMythics"
+MachineName : "LAPTOP-K1VRK1GI"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.8"
+UserName : "rLawrence"
+ProcessId : 17728
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 10/12/2020 4:22:38 pm +08:00 | Level - Error |
+----------------------------------------------------------------------
+EventId : { Id: 1, Name: "UnhandledException" }
+SourceContext : "Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware"
+RequestId : "80000003-0000-fe00-b63f-84710c7967bb"
+RequestPath : "/"
+SpanId : "|ae2be300-4d2be3f377fe7bfb."
+TraceId : "ae2be300-4d2be3f377fe7bfb"
+ParentId : ""
+Application : "AngularMythics"
+MachineName : "LAPTOP-K1VRK1GI"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.8"
+UserName : "rLawrence"
+ProcessId : 17728
+ProcessName : "iisexpress"
+----------------------EXCEPTION DETAILS-------------------------------
+Exception - System.TimeoutException: The Angular CLI process did not start listening for requests within the timeout period of 0 seconds. Check the log output for error information.
+   at Microsoft.AspNetCore.SpaServices.Extensions.Util.TaskTimeoutExtensions.WithTimeout[T](Task`1 task, TimeSpan timeoutDelay, String message)
+   at Microsoft.AspNetCore.SpaServices.Extensions.Proxy.SpaProxy.PerformProxyRequest(HttpContext context, HttpClient httpClient, Task`1 baseUriTask, CancellationToken applicationStoppingToken, Boolean proxy404s)
+   at Microsoft.AspNetCore.Builder.SpaProxyingExtensions.<>c__DisplayClass2_0.<<UseProxyToSpaDevelopmentServer>b__0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)StackTrace -    at Microsoft.AspNetCore.SpaServices.Extensions.Util.TaskTimeoutExtensions.WithTimeout[T](Task`1 task, TimeSpan timeoutDelay, String message)
+   at Microsoft.AspNetCore.SpaServices.Extensions.Proxy.SpaProxy.PerformProxyRequest(HttpContext context, HttpClient httpClient, Task`1 baseUriTask, CancellationToken applicationStoppingToken, Boolean proxy404s)
+   at Microsoft.AspNetCore.Builder.SpaProxyingExtensions.<>c__DisplayClass2_0.<<UseProxyToSpaDevelopmentServer>b__0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)Message - The Angular CLI process did not start listening for requests within the timeout period of 0 seconds. Check the log output for error information.Source - Microsoft.AspNetCore.SpaServices.ExtensionsInnerException - ---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 10/12/2020 4:24:17 pm +08:00 | Level - Error |
+----------------------------------------------------------------------
+Error : "Object reference not set to an instance of an object."
+StackTrace : "   at AngularMythics.Controllers.Api.v1.AccountController.Auth(TokenRequestModel model) in C:\Angular repo\angular-repo-1\AngularMythics\Controllers\Api\v1\AccountController.cs:line 78"
+InnerException : null
+Source : "AngularMythics"
+ActionId : "b79ca000-ba48-4878-85f6-59c9cd1f41e5"
+ActionName : "AngularMythics.Controllers.Api.v1.AccountController.Auth (AngularMythics)"
+RequestId : "80000004-0003-fe00-b63f-84710c7967bb"
+RequestPath : "/api/v1/account/auth"
+SpanId : "|ae2be312-4d2be3f377fe7bfb."
+TraceId : "ae2be312-4d2be3f377fe7bfb"
+ParentId : ""
+Application : "AngularMythics"
+MachineName : "LAPTOP-K1VRK1GI"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.8"
+UserName : "rLawrence"
+ProcessId : 17728
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 10/12/2020 4:25:15 pm +08:00 | Level - Error |
+----------------------------------------------------------------------
+Error : "Object reference not set to an instance of an object."
+StackTrace : "   at AngularMythics.Controllers.Api.v1.AccountController.Auth(TokenRequestModel model) in C:\Angular repo\angular-repo-1\AngularMythics\Controllers\Api\v1\AccountController.cs:line 78"
+InnerException : null
+Source : "AngularMythics"
+ActionId : "b79ca000-ba48-4878-85f6-59c9cd1f41e5"
+ActionName : "AngularMythics.Controllers.Api.v1.AccountController.Auth (AngularMythics)"
+RequestId : "80000004-0000-fc00-b63f-84710c7967bb"
+RequestPath : "/api/v1/account/auth"
+SpanId : "|ae2be313-4d2be3f377fe7bfb."
+TraceId : "ae2be313-4d2be3f377fe7bfb"
+ParentId : ""
+Application : "AngularMythics"
+MachineName : "LAPTOP-K1VRK1GI"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.8"
+UserName : "rLawrence"
+ProcessId : 17728
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 10/12/2020 4:27:12 pm +08:00 | Level - Error |
+----------------------------------------------------------------------
+Error : "Object reference not set to an instance of an object."
+StackTrace : "   at AngularMythics.Controllers.Api.v1.AccountController.Auth(TokenRequestModel model) in C:\Angular repo\angular-repo-1\AngularMythics\Controllers\Api\v1\AccountController.cs:line 78"
+InnerException : null
+Source : "AngularMythics"
+ActionId : "b79ca000-ba48-4878-85f6-59c9cd1f41e5"
+ActionName : "AngularMythics.Controllers.Api.v1.AccountController.Auth (AngularMythics)"
+RequestId : "80000006-0000-fc00-b63f-84710c7967bb"
+RequestPath : "/api/v1/account/auth"
+SpanId : "|ae2be314-4d2be3f377fe7bfb."
+TraceId : "ae2be314-4d2be3f377fe7bfb"
+ParentId : ""
+Application : "AngularMythics"
+MachineName : "LAPTOP-K1VRK1GI"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.8"
+UserName : "rLawrence"
+ProcessId : 17728
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 10/12/2020 4:27:22 pm +08:00 | Level - Error |
+----------------------------------------------------------------------
+Error : "Object reference not set to an instance of an object."
+StackTrace : "   at AngularMythics.Controllers.Api.v1.AccountController.Auth(TokenRequestModel model) in C:\Angular repo\angular-repo-1\AngularMythics\Controllers\Api\v1\AccountController.cs:line 78"
+InnerException : null
+Source : "AngularMythics"
+ActionId : "b79ca000-ba48-4878-85f6-59c9cd1f41e5"
+ActionName : "AngularMythics.Controllers.Api.v1.AccountController.Auth (AngularMythics)"
+RequestId : "80000008-0001-ff00-b63f-84710c7967bb"
+RequestPath : "/api/v1/account/auth"
+SpanId : "|ae2be315-4d2be3f377fe7bfb."
+TraceId : "ae2be315-4d2be3f377fe7bfb"
+ParentId : ""
+Application : "AngularMythics"
+MachineName : "LAPTOP-K1VRK1GI"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.8"
+UserName : "rLawrence"
+ProcessId : 17728
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 10/12/2020 4:28:02 pm +08:00 | Level - Error |
+----------------------------------------------------------------------
+Error : "Object reference not set to an instance of an object."
+StackTrace : "   at AngularMythics.Controllers.Api.v1.AccountController.Auth(TokenRequestModel model) in C:\Angular repo\angular-repo-1\AngularMythics\Controllers\Api\v1\AccountController.cs:line 78"
+InnerException : null
+Source : "AngularMythics"
+ActionId : "b79ca000-ba48-4878-85f6-59c9cd1f41e5"
+ActionName : "AngularMythics.Controllers.Api.v1.AccountController.Auth (AngularMythics)"
+RequestId : "8000000a-0003-fe00-b63f-84710c7967bb"
+RequestPath : "/api/v1/account/auth"
+SpanId : "|ae2be326-4d2be3f377fe7bfb."
+TraceId : "ae2be326-4d2be3f377fe7bfb"
+ParentId : ""
+Application : "AngularMythics"
+MachineName : "LAPTOP-K1VRK1GI"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.8"
+UserName : "rLawrence"
+ProcessId : 17728
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 10/12/2020 4:31:35 pm +08:00 | Level - Error |
+----------------------------------------------------------------------
+SourceContext : "Microsoft.AspNetCore.SpaServices"
+Application : "AngularMythics"
+MachineName : "LAPTOP-K1VRK1GI"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.8"
+UserName : "rLawrence"
+ProcessId : 9604
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 10/12/2020 4:34:18 pm +08:00 | Level - Error |
+----------------------------------------------------------------------
+Error : "Object reference not set to an instance of an object."
+StackTrace : "   at AngularMythics.Controllers.Api.v1.AccountController.Auth(TokenRequestModel model) in C:\Angular repo\angular-repo-1\AngularMythics\Controllers\Api\v1\AccountController.cs:line 78"
+InnerException : null
+Source : "AngularMythics"
+ActionId : "88c59ee9-243a-4562-b053-184cdc34fa72"
+ActionName : "AngularMythics.Controllers.Api.v1.AccountController.Auth (AngularMythics)"
+RequestId : "8000000a-0000-fb00-b63f-84710c7967bb"
+RequestPath : "/api/v1/account/auth"
+SpanId : "|b8da6484-43f7747e3b54718b."
+TraceId : "b8da6484-43f7747e3b54718b"
+ParentId : ""
+Application : "AngularMythics"
+MachineName : "LAPTOP-K1VRK1GI"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.8"
+UserName : "rLawrence"
+ProcessId : 9604
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 10/12/2020 4:39:56 pm +08:00 | Level - Error |
+----------------------------------------------------------------------
+SourceContext : "Microsoft.AspNetCore.SpaServices"
+Application : "AngularMythics"
+MachineName : "LAPTOP-K1VRK1GI"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.8"
+UserName : "rLawrence"
+ProcessId : 12108
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 10/12/2020 4:40:15 pm +08:00 | Level - Error |
+----------------------------------------------------------------------
+Error : "Object reference not set to an instance of an object."
+StackTrace : "   at AngularMythics.Controllers.Api.v1.AccountController.Auth(TokenRequestModel model) in C:\Angular repo\angular-repo-1\AngularMythics\Controllers\Api\v1\AccountController.cs:line 78"
+InnerException : null
+Source : "AngularMythics"
+ActionId : "de4df41f-7fc3-48d6-b7ba-1a8ad36bf5b0"
+ActionName : "AngularMythics.Controllers.Api.v1.AccountController.Auth (AngularMythics)"
+RequestId : "8000000c-0002-fb00-b63f-84710c7967bb"
+RequestPath : "/api/v1/account/auth"
+SpanId : "|2726b14d-4f6144464554fdc0."
+TraceId : "2726b14d-4f6144464554fdc0"
+ParentId : ""
+Application : "AngularMythics"
+MachineName : "LAPTOP-K1VRK1GI"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.8"
+UserName : "rLawrence"
+ProcessId : 12108
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 10/12/2020 4:40:27 pm +08:00 | Level - Error |
+----------------------------------------------------------------------
+Error : "Object reference not set to an instance of an object."
+StackTrace : "   at AngularMythics.Controllers.Api.v1.AccountController.Auth(TokenRequestModel model) in C:\Angular repo\angular-repo-1\AngularMythics\Controllers\Api\v1\AccountController.cs:line 78"
+InnerException : null
+Source : "AngularMythics"
+ActionId : "de4df41f-7fc3-48d6-b7ba-1a8ad36bf5b0"
+ActionName : "AngularMythics.Controllers.Api.v1.AccountController.Auth (AngularMythics)"
+RequestId : "8000000e-0002-fb00-b63f-84710c7967bb"
+RequestPath : "/api/v1/account/auth"
+SpanId : "|2726b14e-4f6144464554fdc0."
+TraceId : "2726b14e-4f6144464554fdc0"
+ParentId : ""
+Application : "AngularMythics"
+MachineName : "LAPTOP-K1VRK1GI"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.8"
+UserName : "rLawrence"
+ProcessId : 12108
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 10/12/2020 4:44:44 pm +08:00 | Level - Error |
+----------------------------------------------------------------------
+SourceContext : "Microsoft.AspNetCore.SpaServices"
+Application : "AngularMythics"
+MachineName : "LAPTOP-K1VRK1GI"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.8"
+UserName : "rLawrence"
+ProcessId : 8200
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 10/12/2020 4:45:49 pm +08:00 | Level - Error |
+----------------------------------------------------------------------
+Error : "Object reference not set to an instance of an object."
+StackTrace : "   at AngularMythics.Controllers.Api.v1.AccountController.Auth(TokenRequestModel model) in C:\Angular repo\angular-repo-1\AngularMythics\Controllers\Api\v1\AccountController.cs:line 80"
+InnerException : null
+Source : "AngularMythics"
+ActionId : "a01795d4-9ec2-466b-836e-17b075c5d2ff"
+ActionName : "AngularMythics.Controllers.Api.v1.AccountController.Auth (AngularMythics)"
+RequestId : "80000017-0003-ff00-b63f-84710c7967bb"
+RequestPath : "/api/v1/account/auth"
+SpanId : "|ccbf2932-4b7656627fd39104."
+TraceId : "ccbf2932-4b7656627fd39104"
+ParentId : ""
+Application : "AngularMythics"
+MachineName : "LAPTOP-K1VRK1GI"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.8"
+UserName : "rLawrence"
+ProcessId : 8200
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 10/12/2020 4:47:05 pm +08:00 | Level - Warning |
+----------------------------------------------------------------------
+userId : "6e90e8d1-6afe-4841-812e-5e6a822ec8b9"
+errors : "DuplicateEmail"
+EventId : { Id: 13 }
+SourceContext : "Microsoft.AspNetCore.Identity.UserManager"
+ActionId : "3f8cbb35-31f3-4cfc-8058-398efce10a82"
+ActionName : "AngularMythics.Controllers.Api.v1.AccountController.Register (AngularMythics)"
+RequestId : "80000022-0001-fd00-b63f-84710c7967bb"
+RequestPath : "/api/v1/account/register"
+SpanId : "|ccbf2935-4b7656627fd39104."
+TraceId : "ccbf2935-4b7656627fd39104"
+ParentId : ""
+Application : "AngularMythics"
+MachineName : "LAPTOP-K1VRK1GI"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.8"
+UserName : "rLawrence"
+ProcessId : 8200
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 10/12/2020 4:47:31 pm +08:00 | Level - Warning |
+----------------------------------------------------------------------
+userId : "06ca1315-9b29-4199-9f22-b337699af4bd"
+errors : "DuplicateEmail"
+EventId : { Id: 13 }
+SourceContext : "Microsoft.AspNetCore.Identity.UserManager"
+ActionId : "3f8cbb35-31f3-4cfc-8058-398efce10a82"
+ActionName : "AngularMythics.Controllers.Api.v1.AccountController.Register (AngularMythics)"
+RequestId : "80000008-0000-ff00-b63f-84710c7967bb"
+RequestPath : "/api/v1/account/register"
+SpanId : "|ccbf2936-4b7656627fd39104."
+TraceId : "ccbf2936-4b7656627fd39104"
+ParentId : ""
+Application : "AngularMythics"
+MachineName : "LAPTOP-K1VRK1GI"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.8"
+UserName : "rLawrence"
+ProcessId : 8200
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 10/12/2020 4:52:04 pm +08:00 | Level - Error |
+----------------------------------------------------------------------
+SourceContext : "Microsoft.AspNetCore.SpaServices"
+Application : "AngularMythics"
+MachineName : "LAPTOP-K1VRK1GI"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.8"
+UserName : "rLawrence"
+ProcessId : 8920
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 10/12/2020 4:55:36 pm +08:00 | Level - Error |
+----------------------------------------------------------------------
+SourceContext : "Microsoft.AspNetCore.SpaServices"
+Application : "AngularMythics"
+MachineName : "LAPTOP-K1VRK1GI"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.8"
+UserName : "rLawrence"
+ProcessId : 17272
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 10/12/2020 4:58:56 pm +08:00 | Level - Error |
+----------------------------------------------------------------------
+SourceContext : "Microsoft.AspNetCore.SpaServices"
+Application : "AngularMythics"
+MachineName : "LAPTOP-K1VRK1GI"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.8"
+UserName : "rLawrence"
+ProcessId : 20764
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------

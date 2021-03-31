@@ -1,0 +1,13 @@
+----------------------------------------------------------------------
+Timestamp - 30/11/2020 4:49:48 pm +08:00 | Level - Error |
+----------------------------------------------------------------------
+SourceContext : "Microsoft.AspNetCore.SpaServices"
+Application : "AngularMythics"
+MachineName : "LAPTOP-K1VRK1GI"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.8"
+UserName : "rLawrence"
+ProcessId : 15296
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------

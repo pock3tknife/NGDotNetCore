@@ -1,0 +1,1363 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\NG src\\NGNetCorecms\\NGApp\\AngularMythics.csproj": {}
+  },
+  "projects": {
+    "C:\\NG src\\NGNetCorecms\\ActivityService\\ActivityService.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\NG src\\NGNetCorecms\\ActivityService\\ActivityService.csproj",
+        "projectName": "ActivityService",
+        "projectPath": "C:\\NG src\\NGNetCorecms\\ActivityService\\ActivityService.csproj",
+        "packagesPath": "C:\\Users\\rLawrence\\.nuget\\packages\\",
+        "outputPath": "C:\\NG src\\NGNetCorecms\\ActivityService\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\rLawrence\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.telerik.com/nuget": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\NG src\\NGNetCorecms\\DataService\\DataService.csproj": {
+                "projectPath": "C:\\NG src\\NGNetCorecms\\DataService\\DataService.csproj"
+              },
+              "C:\\NG src\\NGNetCorecms\\LoggingService\\LoggingService.csproj": {
+                "projectPath": "C:\\NG src\\NGNetCorecms\\LoggingService\\LoggingService.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\NG src\\NGNetCorecms\\AttributeService\\AttributeService.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\NG src\\NGNetCorecms\\AttributeService\\AttributeService.csproj",
+        "projectName": "AttributeService",
+        "projectPath": "C:\\NG src\\NGNetCorecms\\AttributeService\\AttributeService.csproj",
+        "packagesPath": "C:\\Users\\rLawrence\\.nuget\\packages\\",
+        "outputPath": "C:\\NG src\\NGNetCorecms\\AttributeService\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\rLawrence\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.telerik.com/nuget": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc.Core": {
+              "target": "Package",
+              "version": "[2.2.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\NG src\\NGNetCorecms\\AuthService\\AuthService.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\NG src\\NGNetCorecms\\AuthService\\AuthService.csproj",
+        "projectName": "AuthService",
+        "projectPath": "C:\\NG src\\NGNetCorecms\\AuthService\\AuthService.csproj",
+        "packagesPath": "C:\\Users\\rLawrence\\.nuget\\packages\\",
+        "outputPath": "C:\\NG src\\NGNetCorecms\\AuthService\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\rLawrence\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.telerik.com/nuget": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\NG src\\NGNetCorecms\\ActivityService\\ActivityService.csproj": {
+                "projectPath": "C:\\NG src\\NGNetCorecms\\ActivityService\\ActivityService.csproj"
+              },
+              "C:\\NG src\\NGNetCorecms\\CookieService\\CookieService.csproj": {
+                "projectPath": "C:\\NG src\\NGNetCorecms\\CookieService\\CookieService.csproj"
+              },
+              "C:\\NG src\\NGNetCorecms\\DataService\\DataService.csproj": {
+                "projectPath": "C:\\NG src\\NGNetCorecms\\DataService\\DataService.csproj"
+              },
+              "C:\\NG src\\NGNetCorecms\\LoggingService\\LoggingService.csproj": {
+                "projectPath": "C:\\NG src\\NGNetCorecms\\LoggingService\\LoggingService.csproj"
+              },
+              "C:\\NG src\\NGNetCorecms\\ModelService\\ModelService.csproj": {
+                "projectPath": "C:\\NG src\\NGNetCorecms\\ModelService\\ModelService.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.IdentityModel.Tokens": {
+              "target": "Package",
+              "version": "[6.7.1, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.7.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\NG src\\NGNetCorecms\\BackendService\\BackendService.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\NG src\\NGNetCorecms\\BackendService\\BackendService.csproj",
+        "projectName": "BackendService",
+        "projectPath": "C:\\NG src\\NGNetCorecms\\BackendService\\BackendService.csproj",
+        "packagesPath": "C:\\Users\\rLawrence\\.nuget\\packages\\",
+        "outputPath": "C:\\NG src\\NGNetCorecms\\BackendService\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\rLawrence\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.telerik.com/nuget": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\NG src\\NGNetCorecms\\ActivityService\\ActivityService.csproj": {
+                "projectPath": "C:\\NG src\\NGNetCorecms\\ActivityService\\ActivityService.csproj"
+              },
+              "C:\\NG src\\NGNetCorecms\\CookieService\\CookieService.csproj": {
+                "projectPath": "C:\\NG src\\NGNetCorecms\\CookieService\\CookieService.csproj"
+              },
+              "C:\\NG src\\NGNetCorecms\\LoggingService\\LoggingService.csproj": {
+                "projectPath": "C:\\NG src\\NGNetCorecms\\LoggingService\\LoggingService.csproj"
+              },
+              "C:\\NG src\\NGNetCorecms\\UserService\\UserService.csproj": {
+                "projectPath": "C:\\NG src\\NGNetCorecms\\UserService\\UserService.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\NG src\\NGNetCorecms\\CookieService\\CookieService.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\NG src\\NGNetCorecms\\CookieService\\CookieService.csproj",
+        "projectName": "CookieService",
+        "projectPath": "C:\\NG src\\NGNetCorecms\\CookieService\\CookieService.csproj",
+        "packagesPath": "C:\\Users\\rLawrence\\.nuget\\packages\\",
+        "outputPath": "C:\\NG src\\NGNetCorecms\\CookieService\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\rLawrence\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.telerik.com/nuget": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\NG src\\NGNetCorecms\\LoggingService\\LoggingService.csproj": {
+                "projectPath": "C:\\NG src\\NGNetCorecms\\LoggingService\\LoggingService.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.AspNetCore.Http": {
+              "target": "Package",
+              "version": "[2.2.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\NG src\\NGNetCorecms\\CountryService\\CountryService.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\NG src\\NGNetCorecms\\CountryService\\CountryService.csproj",
+        "projectName": "CountryService",
+        "projectPath": "C:\\NG src\\NGNetCorecms\\CountryService\\CountryService.csproj",
+        "packagesPath": "C:\\Users\\rLawrence\\.nuget\\packages\\",
+        "outputPath": "C:\\NG src\\NGNetCorecms\\CountryService\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\rLawrence\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.telerik.com/nuget": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\NG src\\NGNetCorecms\\LoggingService\\LoggingService.csproj": {
+                "projectPath": "C:\\NG src\\NGNetCorecms\\LoggingService\\LoggingService.csproj"
+              },
+              "C:\\NG src\\NGNetCorecms\\ModelService\\ModelService.csproj": {
+                "projectPath": "C:\\NG src\\NGNetCorecms\\ModelService\\ModelService.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\NG src\\NGNetCorecms\\DashboardService\\DashboardService.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\NG src\\NGNetCorecms\\DashboardService\\DashboardService.csproj",
+        "projectName": "DashboardService",
+        "projectPath": "C:\\NG src\\NGNetCorecms\\DashboardService\\DashboardService.csproj",
+        "packagesPath": "C:\\Users\\rLawrence\\.nuget\\packages\\",
+        "outputPath": "C:\\NG src\\NGNetCorecms\\DashboardService\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\rLawrence\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.telerik.com/nuget": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\NG src\\NGNetCorecms\\DataService\\DataService.csproj": {
+                "projectPath": "C:\\NG src\\NGNetCorecms\\DataService\\DataService.csproj"
+              },
+              "C:\\NG src\\NGNetCorecms\\ModelService\\ModelService.csproj": {
+                "projectPath": "C:\\NG src\\NGNetCorecms\\ModelService\\ModelService.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\NG src\\NGNetCorecms\\DataService\\DataService.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\NG src\\NGNetCorecms\\DataService\\DataService.csproj",
+        "projectName": "DataService",
+        "projectPath": "C:\\NG src\\NGNetCorecms\\DataService\\DataService.csproj",
+        "packagesPath": "C:\\Users\\rLawrence\\.nuget\\packages\\",
+        "outputPath": "C:\\NG src\\NGNetCorecms\\DataService\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\rLawrence\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.telerik.com/nuget": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\NG src\\NGNetCorecms\\CountryService\\CountryService.csproj": {
+                "projectPath": "C:\\NG src\\NGNetCorecms\\CountryService\\CountryService.csproj"
+              },
+              "C:\\NG src\\NGNetCorecms\\FunctionalService\\FunctionalService.csproj": {
+                "projectPath": "C:\\NG src\\NGNetCorecms\\FunctionalService\\FunctionalService.csproj"
+              },
+              "C:\\NG src\\NGNetCorecms\\LoggingService\\LoggingService.csproj": {
+                "projectPath": "C:\\NG src\\NGNetCorecms\\LoggingService\\LoggingService.csproj"
+              },
+              "C:\\NG src\\NGNetCorecms\\ModelService\\ModelService.csproj": {
+                "projectPath": "C:\\NG src\\NGNetCorecms\\ModelService\\ModelService.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.AspNetCore.DataProtection.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.5, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\NG src\\NGNetCorecms\\EmailService\\EmailService.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\NG src\\NGNetCorecms\\EmailService\\EmailService.csproj",
+        "projectName": "EmailService",
+        "projectPath": "C:\\NG src\\NGNetCorecms\\EmailService\\EmailService.csproj",
+        "packagesPath": "C:\\Users\\rLawrence\\.nuget\\packages\\",
+        "outputPath": "C:\\NG src\\NGNetCorecms\\EmailService\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\rLawrence\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.telerik.com/nuget": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\NG src\\NGNetCorecms\\FunctionalService\\FunctionalService.csproj": {
+                "projectPath": "C:\\NG src\\NGNetCorecms\\FunctionalService\\FunctionalService.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\NG src\\NGNetCorecms\\FiltersService\\FiltersService.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\NG src\\NGNetCorecms\\FiltersService\\FiltersService.csproj",
+        "projectName": "FiltersService",
+        "projectPath": "C:\\NG src\\NGNetCorecms\\FiltersService\\FiltersService.csproj",
+        "packagesPath": "C:\\Users\\rLawrence\\.nuget\\packages\\",
+        "outputPath": "C:\\NG src\\NGNetCorecms\\FiltersService\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\rLawrence\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.telerik.com/nuget": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\NG src\\NGNetCorecms\\AuthService\\AuthService.csproj": {
+                "projectPath": "C:\\NG src\\NGNetCorecms\\AuthService\\AuthService.csproj"
+              },
+              "C:\\NG src\\NGNetCorecms\\DataService\\DataService.csproj": {
+                "projectPath": "C:\\NG src\\NGNetCorecms\\DataService\\DataService.csproj"
+              },
+              "C:\\NG src\\NGNetCorecms\\LoggingService\\LoggingService.csproj": {
+                "projectPath": "C:\\NG src\\NGNetCorecms\\LoggingService\\LoggingService.csproj"
+              },
+              "C:\\NG src\\NGNetCorecms\\ModelService\\ModelService.csproj": {
+                "projectPath": "C:\\NG src\\NGNetCorecms\\ModelService\\ModelService.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.IdentityModel.Tokens": {
+              "target": "Package",
+              "version": "[6.7.1, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.7.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\NG src\\NGNetCorecms\\FunctionalService\\FunctionalService.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\NG src\\NGNetCorecms\\FunctionalService\\FunctionalService.csproj",
+        "projectName": "FunctionalService",
+        "projectPath": "C:\\NG src\\NGNetCorecms\\FunctionalService\\FunctionalService.csproj",
+        "packagesPath": "C:\\Users\\rLawrence\\.nuget\\packages\\",
+        "outputPath": "C:\\NG src\\NGNetCorecms\\FunctionalService\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\rLawrence\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.telerik.com/nuget": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\NG src\\NGNetCorecms\\LoggingService\\LoggingService.csproj": {
+                "projectPath": "C:\\NG src\\NGNetCorecms\\LoggingService\\LoggingService.csproj"
+              },
+              "C:\\NG src\\NGNetCorecms\\ModelService\\ModelService.csproj": {
+                "projectPath": "C:\\NG src\\NGNetCorecms\\ModelService\\ModelService.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.5, )"
+            },
+            "SendGrid": {
+              "target": "Package",
+              "version": "[9.19.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\NG src\\NGNetCorecms\\LoggingService\\LoggingService.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\NG src\\NGNetCorecms\\LoggingService\\LoggingService.csproj",
+        "projectName": "LoggingService",
+        "projectPath": "C:\\NG src\\NGNetCorecms\\LoggingService\\LoggingService.csproj",
+        "packagesPath": "C:\\Users\\rLawrence\\.nuget\\packages\\",
+        "outputPath": "C:\\NG src\\NGNetCorecms\\LoggingService\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\rLawrence\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.telerik.com/nuget": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[3.2.0, )"
+            },
+            "Serilog.Settings.Configuration": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "Serilog.Sinks.Async": {
+              "target": "Package",
+              "version": "[1.4.0, )"
+            },
+            "Serilog.Sinks.Console": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Serilog.Sinks.File": {
+              "target": "Package",
+              "version": "[4.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\NG src\\NGNetCorecms\\ModelService\\ModelService.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\NG src\\NGNetCorecms\\ModelService\\ModelService.csproj",
+        "projectName": "ModelService",
+        "projectPath": "C:\\NG src\\NGNetCorecms\\ModelService\\ModelService.csproj",
+        "packagesPath": "C:\\Users\\rLawrence\\.nuget\\packages\\",
+        "outputPath": "C:\\NG src\\NGNetCorecms\\ModelService\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\rLawrence\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.telerik.com/nuget": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\NG src\\NGNetCorecms\\NGApp\\AngularMythics.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\NG src\\NGNetCorecms\\NGApp\\AngularMythics.csproj",
+        "projectName": "AngularMythics",
+        "projectPath": "C:\\NG src\\NGNetCorecms\\NGApp\\AngularMythics.csproj",
+        "packagesPath": "C:\\Users\\rLawrence\\.nuget\\packages\\",
+        "outputPath": "C:\\NG src\\NGNetCorecms\\NGApp\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\rLawrence\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.telerik.com/nuget": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\NG src\\NGNetCorecms\\AttributeService\\AttributeService.csproj": {
+                "projectPath": "C:\\NG src\\NGNetCorecms\\AttributeService\\AttributeService.csproj"
+              },
+              "C:\\NG src\\NGNetCorecms\\AuthService\\AuthService.csproj": {
+                "projectPath": "C:\\NG src\\NGNetCorecms\\AuthService\\AuthService.csproj"
+              },
+              "C:\\NG src\\NGNetCorecms\\BackendService\\BackendService.csproj": {
+                "projectPath": "C:\\NG src\\NGNetCorecms\\BackendService\\BackendService.csproj"
+              },
+              "C:\\NG src\\NGNetCorecms\\CookieService\\CookieService.csproj": {
+                "projectPath": "C:\\NG src\\NGNetCorecms\\CookieService\\CookieService.csproj"
+              },
+              "C:\\NG src\\NGNetCorecms\\CountryService\\CountryService.csproj": {
+                "projectPath": "C:\\NG src\\NGNetCorecms\\CountryService\\CountryService.csproj"
+              },
+              "C:\\NG src\\NGNetCorecms\\DashboardService\\DashboardService.csproj": {
+                "projectPath": "C:\\NG src\\NGNetCorecms\\DashboardService\\DashboardService.csproj"
+              },
+              "C:\\NG src\\NGNetCorecms\\DataService\\DataService.csproj": {
+                "projectPath": "C:\\NG src\\NGNetCorecms\\DataService\\DataService.csproj"
+              },
+              "C:\\NG src\\NGNetCorecms\\EmailService\\EmailService.csproj": {
+                "projectPath": "C:\\NG src\\NGNetCorecms\\EmailService\\EmailService.csproj"
+              },
+              "C:\\NG src\\NGNetCorecms\\FiltersService\\FiltersService.csproj": {
+                "projectPath": "C:\\NG src\\NGNetCorecms\\FiltersService\\FiltersService.csproj"
+              },
+              "C:\\NG src\\NGNetCorecms\\LoggingService\\LoggingService.csproj": {
+                "projectPath": "C:\\NG src\\NGNetCorecms\\LoggingService\\LoggingService.csproj"
+              },
+              "C:\\NG src\\NGNetCorecms\\ModelService\\ModelService.csproj": {
+                "projectPath": "C:\\NG src\\NGNetCorecms\\ModelService\\ModelService.csproj"
+              },
+              "C:\\NG src\\NGNetCorecms\\RolesService\\RolesService.csproj": {
+                "projectPath": "C:\\NG src\\NGNetCorecms\\RolesService\\RolesService.csproj"
+              },
+              "C:\\NG src\\NGNetCorecms\\UserService\\UserService.csproj": {
+                "projectPath": "C:\\NG src\\NGNetCorecms\\UserService\\UserService.csproj"
+              },
+              "C:\\NG src\\NGNetCorecms\\WritableOptionsService\\WritableOptionsService.csproj": {
+                "projectPath": "C:\\NG src\\NGNetCorecms\\WritableOptionsService\\WritableOptionsService.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "BuildBundlerMinifier": {
+              "target": "Package",
+              "version": "[3.2.449, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[3.1.5, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": {
+              "target": "Package",
+              "version": "[3.1.5, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Versioning": {
+              "target": "Package",
+              "version": "[4.1.1, )"
+            },
+            "Microsoft.AspNetCore.SpaServices.Extensions": {
+              "target": "Package",
+              "version": "[3.1.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.5, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[3.1.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\NG src\\NGNetCorecms\\RolesService\\RolesService.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\NG src\\NGNetCorecms\\RolesService\\RolesService.csproj",
+        "projectName": "RolesService",
+        "projectPath": "C:\\NG src\\NGNetCorecms\\RolesService\\RolesService.csproj",
+        "packagesPath": "C:\\Users\\rLawrence\\.nuget\\packages\\",
+        "outputPath": "C:\\NG src\\NGNetCorecms\\RolesService\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\rLawrence\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.telerik.com/nuget": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\NG src\\NGNetCorecms\\DataService\\DataService.csproj": {
+                "projectPath": "C:\\NG src\\NGNetCorecms\\DataService\\DataService.csproj"
+              },
+              "C:\\NG src\\NGNetCorecms\\ModelService\\ModelService.csproj": {
+                "projectPath": "C:\\NG src\\NGNetCorecms\\ModelService\\ModelService.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.6, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\NG src\\NGNetCorecms\\UserService\\UserService.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\NG src\\NGNetCorecms\\UserService\\UserService.csproj",
+        "projectName": "UserService",
+        "projectPath": "C:\\NG src\\NGNetCorecms\\UserService\\UserService.csproj",
+        "packagesPath": "C:\\Users\\rLawrence\\.nuget\\packages\\",
+        "outputPath": "C:\\NG src\\NGNetCorecms\\UserService\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\rLawrence\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.telerik.com/nuget": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\NG src\\NGNetCorecms\\ActivityService\\ActivityService.csproj": {
+                "projectPath": "C:\\NG src\\NGNetCorecms\\ActivityService\\ActivityService.csproj"
+              },
+              "C:\\NG src\\NGNetCorecms\\CookieService\\CookieService.csproj": {
+                "projectPath": "C:\\NG src\\NGNetCorecms\\CookieService\\CookieService.csproj"
+              },
+              "C:\\NG src\\NGNetCorecms\\DataService\\DataService.csproj": {
+                "projectPath": "C:\\NG src\\NGNetCorecms\\DataService\\DataService.csproj"
+              },
+              "C:\\NG src\\NGNetCorecms\\LoggingService\\LoggingService.csproj": {
+                "projectPath": "C:\\NG src\\NGNetCorecms\\LoggingService\\LoggingService.csproj"
+              },
+              "C:\\NG src\\NGNetCorecms\\ModelService\\ModelService.csproj": {
+                "projectPath": "C:\\NG src\\NGNetCorecms\\ModelService\\ModelService.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\NG src\\NGNetCorecms\\WritableOptionsService\\WritableOptionsService.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\NG src\\NGNetCorecms\\WritableOptionsService\\WritableOptionsService.csproj",
+        "projectName": "WritableOptionsService",
+        "projectPath": "C:\\NG src\\NGNetCorecms\\WritableOptionsService\\WritableOptionsService.csproj",
+        "packagesPath": "C:\\Users\\rLawrence\\.nuget\\packages\\",
+        "outputPath": "C:\\NG src\\NGNetCorecms\\WritableOptionsService\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\rLawrence\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.telerik.com/nuget": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\NG src\\NGNetCorecms\\LoggingService\\LoggingService.csproj": {
+                "projectPath": "C:\\NG src\\NGNetCorecms\\LoggingService\\LoggingService.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.Extensions.Hosting.Abstractions": {
+              "target": "Package",
+              "version": "[3.1.6, )"
+            },
+            "Microsoft.Extensions.Options": {
+              "target": "Package",
+              "version": "[3.1.6, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

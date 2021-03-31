@@ -1,0 +1,41 @@
+----------------------------------------------------------------------
+Timestamp - 09/11/2020 5:26:49 pm +08:00 | Level - Error |
+----------------------------------------------------------------------
+RequestId : "8000000b-0003-fe00-b63f-84710c7967bb"
+RequestPath : "/admin"
+SpanId : "|4c6ee1fc-448686fb5a696450."
+TraceId : "4c6ee1fc-448686fb5a696450"
+ParentId : ""
+Application : "AngularMythics"
+MachineName : "LAPTOP-K1VRK1GI"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.8"
+UserName : "rLawrence"
+ProcessId : 14464
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 09/11/2020 5:27:32 pm +08:00 | Level - Error |
+----------------------------------------------------------------------
+Error : "Value cannot be null. (Parameter 'name')"
+StackTrace : "   at System.Globalization.RegionInfo..ctor(String name)
+   at CookieService.CookieSvc.GetUserCountry() in C:\Angular repo\angular-repo-1\CookieService\CookieSvc.cs:line 92"
+InnerException : null
+Source : "System.Private.CoreLib"
+ActionId : "0f7da0f1-e933-4729-a03c-45f186152084"
+ActionName : "AngularMythics.Areas.Admin.Controllers.AccountController.Login (AngularMythics)"
+RequestId : "8000001a-0002-fb00-b63f-84710c7967bb"
+RequestPath : "/Admin/Account/Login"
+SpanId : "|4c6ee206-448686fb5a696450."
+TraceId : "4c6ee206-448686fb5a696450"
+ParentId : ""
+Application : "AngularMythics"
+MachineName : "LAPTOP-K1VRK1GI"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.8"
+UserName : "rLawrence"
+ProcessId : 14464
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------

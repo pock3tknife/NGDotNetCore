@@ -1,0 +1,37 @@
+----------------------------------------------------------------------
+Timestamp - 16/12/2020 4:44:59 pm +08:00 | Level - Error |
+----------------------------------------------------------------------
+SourceContext : "Microsoft.AspNetCore.SpaServices"
+Application : "AngularMythics"
+MachineName : "LAPTOP-K1VRK1GI"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.8"
+UserName : "rLawrence"
+ProcessId : 17432
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 16/12/2020 4:50:59 pm +08:00 | Level - Error |
+----------------------------------------------------------------------
+Error : "Value cannot be null. (Parameter 'name')"
+StackTrace : "   at System.Globalization.RegionInfo..ctor(String name)
+   at CookieService.CookieSvc.GetUserCountry() in C:\Angular repo\angular-repo-1\CookieService\CookieSvc.cs:line 92"
+InnerException : null
+Source : "System.Private.CoreLib"
+ActionId : "9d3cfd5f-36ef-4e75-99a2-b7a97381e6fd"
+ActionName : "AngularMythics.Controllers.Api.v1.ProfileController.UpdateProfile (AngularMythics)"
+RequestId : "80000008-0003-fa00-b63f-84710c7967bb"
+RequestPath : "/api/v1/profile/updateprofile"
+SpanId : "|8073ed3c-47af86ce9295e74d."
+TraceId : "8073ed3c-47af86ce9295e74d"
+ParentId : ""
+Application : "AngularMythics"
+MachineName : "LAPTOP-K1VRK1GI"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.8"
+UserName : "rLawrence"
+ProcessId : 17432
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------

@@ -1,0 +1,428 @@
+----------------------------------------------------------------------
+Timestamp - 24/11/2020 4:34:58 pm +08:00 | Level - Error |
+----------------------------------------------------------------------
+RequestId : "800006b0-0001-fe00-b63f-84710c7967bb"
+RequestPath : "/admin"
+SpanId : "|53c4b6d9-4e8a72c8661fc5b1."
+TraceId : "53c4b6d9-4e8a72c8661fc5b1"
+ParentId : ""
+Application : "AngularMythics"
+MachineName : "LAPTOP-K1VRK1GI"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.8"
+UserName : "rLawrence"
+ProcessId : 864
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 24/11/2020 4:35:14 pm +08:00 | Level - Error |
+----------------------------------------------------------------------
+Error : "Value cannot be null. (Parameter 'name')"
+StackTrace : "   at System.Globalization.RegionInfo..ctor(String name)
+   at CookieService.CookieSvc.GetUserCountry() in C:\Angular repo\angular-repo-1\CookieService\CookieSvc.cs:line 92"
+InnerException : null
+Source : "System.Private.CoreLib"
+ActionId : "d04b2fd5-1e48-44d7-bc9e-e8f7a2e8b94d"
+ActionName : "AngularMythics.Areas.Admin.Controllers.AccountController.Login (AngularMythics)"
+RequestId : "800006b2-0001-fe00-b63f-84710c7967bb"
+RequestPath : "/Admin/Account/Login"
+SpanId : "|53c4b6e1-4e8a72c8661fc5b1."
+TraceId : "53c4b6e1-4e8a72c8661fc5b1"
+ParentId : ""
+Application : "AngularMythics"
+MachineName : "LAPTOP-K1VRK1GI"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.8"
+UserName : "rLawrence"
+ProcessId : 864
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 24/11/2020 4:36:15 pm +08:00 | Level - Error |
+----------------------------------------------------------------------
+Error : "The payload was invalid."
+StackTrace : "   at Microsoft.AspNetCore.DataProtection.Cng.CbcAuthenticatedEncryptor.DecryptImpl(Byte* pbCiphertext, UInt32 cbCiphertext, Byte* pbAdditionalAuthenticatedData, UInt32 cbAdditionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBase.Decrypt(ArraySegment`1 ciphertext, ArraySegment`1 additionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.DangerousUnprotect(Byte[] protectedData, Boolean ignoreRevocationErrors, Boolean& requiresMigration, Boolean& wasRevoked)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.DataProtection.DataProtectionCommonExtensions.Unprotect(IDataProtector protector, String protectedData)
+   at AngularMythics.Areas.Admin.Controllers.EmailSettingsController.UpdateSengridOptions(SendGridOptions options) in C:\Angular repo\angular-repo-1\AngularMythics\Areas\Admin\Controllers\EmailSettingsController.cs:line 87"
+InnerException : null
+Source : "Microsoft.AspNetCore.DataProtection"
+ActionId : "803e3f60-101d-4cce-891a-c73fec4e7126"
+ActionName : "AngularMythics.Areas.Admin.Controllers.EmailSettingsController.UpdateSengridOptions (AngularMythics)"
+RequestId : "8000000b-0000-ff00-b63f-84710c7967bb"
+RequestPath : "/Admin/EmailSettings/UpdateSengridOptions"
+SpanId : "|53c4b6e5-4e8a72c8661fc5b1."
+TraceId : "53c4b6e5-4e8a72c8661fc5b1"
+ParentId : ""
+Application : "AngularMythics"
+MachineName : "LAPTOP-K1VRK1GI"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.8"
+UserName : "rLawrence"
+ProcessId : 864
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 24/11/2020 4:47:03 pm +08:00 | Level - Error |
+----------------------------------------------------------------------
+Error : "The payload was invalid."
+StackTrace : "   at Microsoft.AspNetCore.DataProtection.Cng.CbcAuthenticatedEncryptor.DecryptImpl(Byte* pbCiphertext, UInt32 cbCiphertext, Byte* pbAdditionalAuthenticatedData, UInt32 cbAdditionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBase.Decrypt(ArraySegment`1 ciphertext, ArraySegment`1 additionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.DangerousUnprotect(Byte[] protectedData, Boolean ignoreRevocationErrors, Boolean& requiresMigration, Boolean& wasRevoked)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.DataProtection.DataProtectionCommonExtensions.Unprotect(IDataProtector protector, String protectedData)
+   at AngularMythics.Areas.Admin.Controllers.EmailSettingsController.UpdateSengridOptions(SendGridOptions options) in C:\Angular repo\angular-repo-1\AngularMythics\Areas\Admin\Controllers\EmailSettingsController.cs:line 87"
+InnerException : null
+Source : "Microsoft.AspNetCore.DataProtection"
+ActionId : "803e3f60-101d-4cce-891a-c73fec4e7126"
+ActionName : "AngularMythics.Areas.Admin.Controllers.EmailSettingsController.UpdateSengridOptions (AngularMythics)"
+RequestId : "800006b4-0001-fe00-b63f-84710c7967bb"
+RequestPath : "/Admin/EmailSettings/UpdateSengridOptions"
+SpanId : "|53c4b6e9-4e8a72c8661fc5b1."
+TraceId : "53c4b6e9-4e8a72c8661fc5b1"
+ParentId : ""
+Application : "AngularMythics"
+MachineName : "LAPTOP-K1VRK1GI"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.8"
+UserName : "rLawrence"
+ProcessId : 864
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 24/11/2020 4:49:50 pm +08:00 | Level - Error |
+----------------------------------------------------------------------
+Error : "An error occurred during a cryptographic operation."
+StackTrace : "   at Microsoft.AspNetCore.DataProtection.DataProtectionCommonExtensions.Unprotect(IDataProtector protector, String protectedData)
+   at AngularMythics.Areas.Admin.Controllers.EmailSettingsController.UpdateSengridOptions(SendGridOptions options) in C:\Angular repo\angular-repo-1\AngularMythics\Areas\Admin\Controllers\EmailSettingsController.cs:line 87"
+InnerException : "System.FormatException: Malformed input: 69 is an invalid input length.
+   at Microsoft.Extensions.Internal.WebEncoders.GetNumBase64PaddingCharsToAddForDecode(Int32 inputLength)
+   at Microsoft.Extensions.Internal.WebEncoders.GetArraySizeRequiredToDecode(Int32 count)
+   at Microsoft.Extensions.Internal.WebEncoders.Base64UrlDecode(String input, Int32 offset, Int32 count)
+   at Microsoft.Extensions.Internal.WebEncoders.Base64UrlDecode(String input)
+   at Microsoft.AspNetCore.DataProtection.DataProtectionCommonExtensions.Unprotect(IDataProtector protector, String protectedData)"
+Source : "Microsoft.AspNetCore.DataProtection.Abstractions"
+ActionId : "803e3f60-101d-4cce-891a-c73fec4e7126"
+ActionName : "AngularMythics.Areas.Admin.Controllers.EmailSettingsController.UpdateSengridOptions (AngularMythics)"
+RequestId : "8000000f-0000-ff00-b63f-84710c7967bb"
+RequestPath : "/Admin/EmailSettings/UpdateSengridOptions"
+SpanId : "|53c4b6ec-4e8a72c8661fc5b1."
+TraceId : "53c4b6ec-4e8a72c8661fc5b1"
+ParentId : ""
+Application : "AngularMythics"
+MachineName : "LAPTOP-K1VRK1GI"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.8"
+UserName : "rLawrence"
+ProcessId : 864
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 24/11/2020 5:07:44 pm +08:00 | Level - Error |
+----------------------------------------------------------------------
+Error : "Value cannot be null. (Parameter 'name')"
+StackTrace : "   at System.Globalization.RegionInfo..ctor(String name)
+   at CookieService.CookieSvc.GetUserCountry() in C:\Angular repo\angular-repo-1\CookieService\CookieSvc.cs:line 92"
+InnerException : null
+Source : "System.Private.CoreLib"
+ActionId : "112735bd-a868-4663-bb15-d98ff8effa6e"
+ActionName : "AngularMythics.Controllers.Api.v1.UserController.ResetPassword (AngularMythics)"
+RequestId : "80000004-0001-fd00-b63f-84710c7967bb"
+RequestPath : "/api/v1/user/ResetPassword/techhowdy"
+SpanId : "|e919fc3-4decaa90567b375c."
+TraceId : "e919fc3-4decaa90567b375c"
+ParentId : ""
+Application : "AngularMythics"
+MachineName : "LAPTOP-K1VRK1GI"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.8"
+UserName : "rLawrence"
+ProcessId : 8828
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 24/11/2020 5:07:46 pm +08:00 | Level - Error |
+----------------------------------------------------------------------
+Error : "The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.7.0 Authentication Required. Learn more at"
+StackTrace : "   at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.MailCommand.EndSend(IAsyncResult result)
+   at System.Net.Mail.SendMailAsyncResult.SendMailFromCompleted(IAsyncResult result)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw(Exception source)
+   at System.Net.Mail.SendMailAsyncResult.End(IAsyncResult result)
+   at System.Net.Mail.SmtpClient.SendMailCallback(IAsyncResult result)
+--- End of stack trace from previous location where exception was thrown ---
+   at FunctionalService.FunctionalSvc.SendEmailByGmailAsync(String fromEmail, String fromFullName, String subject, String messageBody, String toEmail, String toFullName, String smtpUser, String smtpPassword, String smtpHost, Int32 smtpPort, Boolean smtpSSL) in C:\Angular repo\angular-repo-1\FunctionalService\FunctionalSvc.cs:line 176"
+InnerException : null
+Source : "System.Net.Mail"
+ActionId : "112735bd-a868-4663-bb15-d98ff8effa6e"
+ActionName : "AngularMythics.Controllers.Api.v1.UserController.ResetPassword (AngularMythics)"
+RequestId : "80000004-0001-fd00-b63f-84710c7967bb"
+RequestPath : "/api/v1/user/ResetPassword/techhowdy"
+SpanId : "|e919fc3-4decaa90567b375c."
+TraceId : "e919fc3-4decaa90567b375c"
+ParentId : ""
+Application : "AngularMythics"
+MachineName : "LAPTOP-K1VRK1GI"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.8"
+UserName : "rLawrence"
+ProcessId : 8828
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 24/11/2020 5:08:20 pm +08:00 | Level - Warning |
+----------------------------------------------------------------------
+userId : "bda9a613-982c-4182-b5e8-f8e0fe8e5c25"
+role : "Customer"
+EventId : { Id: 5 }
+SourceContext : "Microsoft.AspNetCore.Identity.UserManager"
+ActionId : "d168424e-2ad6-42a1-b15a-4bb8cfa3b663"
+ActionName : "AngularMythics.Controllers.Api.v1.UserController.EditUser (AngularMythics)"
+RequestId : "80000008-0001-fd00-b63f-84710c7967bb"
+RequestPath : "/api/v1/user/edituser/bda9a613-982c-4182-b5e8-f8e0fe8e5c25"
+SpanId : "|e919fc5-4decaa90567b375c."
+TraceId : "e919fc5-4decaa90567b375c"
+ParentId : ""
+Application : "AngularMythics"
+MachineName : "LAPTOP-K1VRK1GI"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.8"
+UserName : "rLawrence"
+ProcessId : 8828
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 24/11/2020 5:08:20 pm +08:00 | Level - Error |
+----------------------------------------------------------------------
+Error : "Value cannot be null. (Parameter 'name')"
+StackTrace : "   at System.Globalization.RegionInfo..ctor(String name)
+   at CookieService.CookieSvc.GetUserCountry() in C:\Angular repo\angular-repo-1\CookieService\CookieSvc.cs:line 92"
+InnerException : null
+Source : "System.Private.CoreLib"
+ActionId : "d168424e-2ad6-42a1-b15a-4bb8cfa3b663"
+ActionName : "AngularMythics.Controllers.Api.v1.UserController.EditUser (AngularMythics)"
+RequestId : "80000008-0001-fd00-b63f-84710c7967bb"
+RequestPath : "/api/v1/user/edituser/bda9a613-982c-4182-b5e8-f8e0fe8e5c25"
+SpanId : "|e919fc5-4decaa90567b375c."
+TraceId : "e919fc5-4decaa90567b375c"
+ParentId : ""
+Application : "AngularMythics"
+MachineName : "LAPTOP-K1VRK1GI"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.8"
+UserName : "rLawrence"
+ProcessId : 8828
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 24/11/2020 5:08:28 pm +08:00 | Level - Error |
+----------------------------------------------------------------------
+Error : "Value cannot be null. (Parameter 'name')"
+StackTrace : "   at System.Globalization.RegionInfo..ctor(String name)
+   at CookieService.CookieSvc.GetUserCountry() in C:\Angular repo\angular-repo-1\CookieService\CookieSvc.cs:line 92"
+InnerException : null
+Source : "System.Private.CoreLib"
+ActionId : "112735bd-a868-4663-bb15-d98ff8effa6e"
+ActionName : "AngularMythics.Controllers.Api.v1.UserController.ResetPassword (AngularMythics)"
+RequestId : "8000109f-0003-fb00-b63f-84710c7967bb"
+RequestPath : "/api/v1/user/ResetPassword/techhowdy"
+SpanId : "|e919fc8-4decaa90567b375c."
+TraceId : "e919fc8-4decaa90567b375c"
+ParentId : ""
+Application : "AngularMythics"
+MachineName : "LAPTOP-K1VRK1GI"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.8"
+UserName : "rLawrence"
+ProcessId : 8828
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 24/11/2020 5:08:29 pm +08:00 | Level - Error |
+----------------------------------------------------------------------
+Error : "The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.7.0 Authentication Required. Learn more at"
+StackTrace : "   at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.MailCommand.EndSend(IAsyncResult result)
+   at System.Net.Mail.SendMailAsyncResult.SendMailFromCompleted(IAsyncResult result)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw(Exception source)
+   at System.Net.Mail.SendMailAsyncResult.End(IAsyncResult result)
+   at System.Net.Mail.SmtpClient.SendMailCallback(IAsyncResult result)
+--- End of stack trace from previous location where exception was thrown ---
+   at FunctionalService.FunctionalSvc.SendEmailByGmailAsync(String fromEmail, String fromFullName, String subject, String messageBody, String toEmail, String toFullName, String smtpUser, String smtpPassword, String smtpHost, Int32 smtpPort, Boolean smtpSSL) in C:\Angular repo\angular-repo-1\FunctionalService\FunctionalSvc.cs:line 176"
+InnerException : null
+Source : "System.Net.Mail"
+ActionId : "112735bd-a868-4663-bb15-d98ff8effa6e"
+ActionName : "AngularMythics.Controllers.Api.v1.UserController.ResetPassword (AngularMythics)"
+RequestId : "8000109f-0003-fb00-b63f-84710c7967bb"
+RequestPath : "/api/v1/user/ResetPassword/techhowdy"
+SpanId : "|e919fc8-4decaa90567b375c."
+TraceId : "e919fc8-4decaa90567b375c"
+ParentId : ""
+Application : "AngularMythics"
+MachineName : "LAPTOP-K1VRK1GI"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.8"
+UserName : "rLawrence"
+ProcessId : 8828
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 24/11/2020 5:18:32 pm +08:00 | Level - Error |
+----------------------------------------------------------------------
+RequestId : "80000051-0000-fb00-b63f-84710c7967bb"
+RequestPath : "/admin"
+SpanId : "|3fe02154-48ca50632c04f1e6."
+TraceId : "3fe02154-48ca50632c04f1e6"
+ParentId : ""
+Application : "AngularMythics"
+MachineName : "LAPTOP-K1VRK1GI"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.8"
+UserName : "rLawrence"
+ProcessId : 5420
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 24/11/2020 5:18:40 pm +08:00 | Level - Error |
+----------------------------------------------------------------------
+Error : "Value cannot be null. (Parameter 'name')"
+StackTrace : "   at System.Globalization.RegionInfo..ctor(String name)
+   at CookieService.CookieSvc.GetUserCountry() in C:\Angular repo\angular-repo-1\CookieService\CookieSvc.cs:line 92"
+InnerException : null
+Source : "System.Private.CoreLib"
+ActionId : "360982b2-e983-4b42-bf28-9a7e9314b664"
+ActionName : "AngularMythics.Areas.Admin.Controllers.AccountController.Login (AngularMythics)"
+RequestId : "8000001a-0001-fd00-b63f-84710c7967bb"
+RequestPath : "/Admin/Account/Login"
+SpanId : "|3fe02161-48ca50632c04f1e6."
+TraceId : "3fe02161-48ca50632c04f1e6"
+ParentId : ""
+Application : "AngularMythics"
+MachineName : "LAPTOP-K1VRK1GI"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.8"
+UserName : "rLawrence"
+ProcessId : 5420
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 24/11/2020 5:20:47 pm +08:00 | Level - Error |
+----------------------------------------------------------------------
+Error : "Value cannot be null. (Parameter 'name')"
+StackTrace : "   at System.Globalization.RegionInfo..ctor(String name)
+   at CookieService.CookieSvc.GetUserCountry() in C:\Angular repo\angular-repo-1\CookieService\CookieSvc.cs:line 92"
+InnerException : null
+Source : "System.Private.CoreLib"
+ActionId : "1ebcfe54-94ea-4444-a6ca-65ba64a3e7d7"
+ActionName : "AngularMythics.Controllers.Api.v1.UserController.ResetPassword (AngularMythics)"
+RequestId : "8000000a-0001-fc00-b63f-84710c7967bb"
+RequestPath : "/api/v1/user/ResetPassword/techhowdy"
+SpanId : "|3fe021a6-48ca50632c04f1e6."
+TraceId : "3fe021a6-48ca50632c04f1e6"
+ParentId : ""
+Application : "AngularMythics"
+MachineName : "LAPTOP-K1VRK1GI"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.8"
+UserName : "rLawrence"
+ProcessId : 5420
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 24/11/2020 5:20:49 pm +08:00 | Level - Error |
+----------------------------------------------------------------------
+Error : "The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.7.0 Authentication Required. Learn more at"
+StackTrace : "   at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.MailCommand.EndSend(IAsyncResult result)
+   at System.Net.Mail.SendMailAsyncResult.SendMailFromCompleted(IAsyncResult result)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw(Exception source)
+   at System.Net.Mail.SendMailAsyncResult.End(IAsyncResult result)
+   at System.Net.Mail.SmtpClient.SendMailCallback(IAsyncResult result)
+--- End of stack trace from previous location where exception was thrown ---
+   at FunctionalService.FunctionalSvc.SendEmailByGmailAsync(String fromEmail, String fromFullName, String subject, String messageBody, String toEmail, String toFullName, String smtpUser, String smtpPassword, String smtpHost, Int32 smtpPort, Boolean smtpSSL) in C:\Angular repo\angular-repo-1\FunctionalService\FunctionalSvc.cs:line 176"
+InnerException : null
+Source : "System.Net.Mail"
+ActionId : "1ebcfe54-94ea-4444-a6ca-65ba64a3e7d7"
+ActionName : "AngularMythics.Controllers.Api.v1.UserController.ResetPassword (AngularMythics)"
+RequestId : "8000000a-0001-fc00-b63f-84710c7967bb"
+RequestPath : "/api/v1/user/ResetPassword/techhowdy"
+SpanId : "|3fe021a6-48ca50632c04f1e6."
+TraceId : "3fe021a6-48ca50632c04f1e6"
+ParentId : ""
+Application : "AngularMythics"
+MachineName : "LAPTOP-K1VRK1GI"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.8"
+UserName : "rLawrence"
+ProcessId : 5420
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 24/11/2020 5:21:04 pm +08:00 | Level - Warning |
+----------------------------------------------------------------------
+userId : "bda9a613-982c-4182-b5e8-f8e0fe8e5c25"
+role : "Customer"
+EventId : { Id: 5 }
+SourceContext : "Microsoft.AspNetCore.Identity.UserManager"
+ActionId : "67d38f9d-6939-441c-98f2-7fea912bbe51"
+ActionName : "AngularMythics.Controllers.Api.v1.UserController.EditUser (AngularMythics)"
+RequestId : "8000000e-0003-f900-b63f-84710c7967bb"
+RequestPath : "/api/v1/user/edituser/bda9a613-982c-4182-b5e8-f8e0fe8e5c25"
+SpanId : "|3fe021aa-48ca50632c04f1e6."
+TraceId : "3fe021aa-48ca50632c04f1e6"
+ParentId : ""
+Application : "AngularMythics"
+MachineName : "LAPTOP-K1VRK1GI"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.8"
+UserName : "rLawrence"
+ProcessId : 5420
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 24/11/2020 5:21:04 pm +08:00 | Level - Error |
+----------------------------------------------------------------------
+Error : "Value cannot be null. (Parameter 'name')"
+StackTrace : "   at System.Globalization.RegionInfo..ctor(String name)
+   at CookieService.CookieSvc.GetUserCountry() in C:\Angular repo\angular-repo-1\CookieService\CookieSvc.cs:line 92"
+InnerException : null
+Source : "System.Private.CoreLib"
+ActionId : "67d38f9d-6939-441c-98f2-7fea912bbe51"
+ActionName : "AngularMythics.Controllers.Api.v1.UserController.EditUser (AngularMythics)"
+RequestId : "8000000e-0003-f900-b63f-84710c7967bb"
+RequestPath : "/api/v1/user/edituser/bda9a613-982c-4182-b5e8-f8e0fe8e5c25"
+SpanId : "|3fe021aa-48ca50632c04f1e6."
+TraceId : "3fe021aa-48ca50632c04f1e6"
+ParentId : ""
+Application : "AngularMythics"
+MachineName : "LAPTOP-K1VRK1GI"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.8"
+UserName : "rLawrence"
+ProcessId : 5420
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
